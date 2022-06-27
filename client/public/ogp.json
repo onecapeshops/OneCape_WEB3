@@ -1,0 +1,154 @@
+[
+  {
+    "title": "Al-Ameer Restaurant",
+    "scope": "https://alameer.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Al-Ameer%2FGroup%2039.png?alt=media&token=bc4185b0-f303-4a1b-8a80-05849ed71316",
+    "url": "https://alameer.onecape.in",
+    "subdomain": "alameer",
+    "description": "Experience the rich and vigrant taste of traditional multi cuisine nonveg food"
+  },
+  {
+    "title": "Black Forest",
+    "scope": "https://blackforest.onecape.in/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Black%20Forest%2FAsset%2013%404x.png?alt=media&token=87ef56ef-bad8-4016-812f-2fe1452bb6be",
+    "url": "https://blackforest.onecape.in/",
+    "subdomain": "blackforest",
+    "description": "Experience the rich and vigrant taste of creamy pastry items along with freshly baked cakes"
+  },
+  {
+    "title": "Bread & cake",
+    "scope": "https://breadandcake.onecape.in/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/bread%20%26%20cake%2FAsset%2012%404x.png?alt=media&token=473d3984-5946-4e60-be43-bf6afe2f3910",
+    "url": "https://breadandcake.onecape.in/",
+    "subdomain": "breadandcake",
+    "description": "Experience the rich and vigrant taste of creamy pastry items along with freshly baked cakes"
+  },
+  {
+    "title": "D19 Shakes nd Foodz",
+    "scope": "https://d19.onecape.in/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/D19%2FAsset%2011%404x.png?alt=media&token=a4e2e6c1-6d18-429b-9b48-046a523141b3",
+    "url": "https://d19.onecape.in/",
+    "subdomain": "d19",
+    "description": "Experience the rich and vigrant taste of western oriented continental foods and snakcs to chip away your taste buds"
+  },
+  {
+    "title": "Dindukkal Thalappakattu",
+    "scope": "https://dtr.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Dindukkal%20Thalappakattu%2Flogo192.png?alt=media&token=d3fe9948-3203-45b8-bf5b-65390463803a",
+    "url": "https://dtr.onecape.in",
+    "subdomain": "dtr",
+    "description": "Experience the rich,sprinkling taste of Ariyalur"
+  },
+  {
+    "title": "Sago greene chicken",
+    "scope": "https://greenechicken.onecape.in/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/greenechicken%2FAsset%209%404x-8.png?alt=media&token=485c8639-ef67-432b-9d44-a800f3809787",
+    "url": "https://greenechicken.onecape.in/",
+    "subdomain": "greenechicken",
+    "description": "Experience the rich and vigrant taste of Tasty Chicken"
+  },
+  {
+    "title": "Halal Fresh Meat",
+    "scope": "https://halalfreshmeat.onecape.in/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Halal%20Fresh%20Meat%2FAsset%2016%404x.png?alt=media&token=25d46132-36ab-4b73-9a3e-b0433216fabe",
+    "url": "https://halalfreshmeat.onecape.in/",
+    "subdomain": "halalfreshmeat",
+    "description": "Experience the rich and vigrant taste of fresh non veg items which are Halal based too!"
+  },
+  {
+    "title": "Jiffy Meals",
+    "scope": "https://jiffymeals.onecape.in/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Jiffy%20Meals%2FAsset%2014%404x.png?alt=media&token=23a04333-b677-4602-be64-83296e1d92b4",
+    "url": "https://jiffymeals.onecape.in/",
+    "subdomain": "jiffymeals",
+    "description": "Experience the rich and vigrant taste veg and Non veg cuisine created by authentic famous chefs around Pune"
+  },
+  {
+    "title": "King Seafood",
+    "scope": "https://kingseafood.onecape.in/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/king%20seafood%2F192.png?alt=media&token=fa41eca7-f70f-4094-965d-5cb0b4450569",
+    "url": "https://kingseafood.onecape.in/",
+    "subdomain": "kingseafood",
+    "description": "Experience the rich and vigrant taste of fresh sea food from Trichy "
+  },
+  {
+    "title": "Meeran Hajiyaar Kalyana Biriyani",
+    "scope": "https://meerankalyanabiriyani.onecape.in/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Meeran%20Hajiyaar%20Kalyana%20Biriyani%2FGroup%2039.png?alt=media&token=b2dc115b-2b3e-4cf2-b41e-c796996edf42",
+    "url": "https://meerankalyanabiriyani.onecape.in/",
+    "subdomain": "meerankalyanabiriyani",
+    "description": "Experience the rich and vigrant taste of Non veg Mughalai cuisine created by authentic famous chefs around Manapparai"
+  },
+  {
+    "title": "OneCape",
+    "scope": "https://onecapedemo.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Demo%2Flogo192.png?alt=media&token=87e56a24-1dbb-43ed-b3de-2c0f8224090f",
+    "url": "https://onecapedemo.onecape.in",
+    "subdomain": "onecapedemo",
+    "description": "Set up your shop online and grow your business, focus only on your customers leave everything else with us"
+  },
+  {
+    "title": "OneCape Demo 1",
+    "scope": "https://onecapedemo112255.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Demo%2Flogo192.png?alt=media&token=87e56a24-1dbb-43ed-b3de-2c0f8224090f",
+    "url": "https://onecapedemo112255.onecape.in",
+    "subdomain": "onecapedemo112255",
+    "description": "Set up your shop online and grow your business, focus only on your customers leave everything else with us"
+  },
+  {
+    "title": "OneCape Demo 2",
+    "scope": "https://onecapedemo280267.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Demo%2Flogo192.png?alt=media&token=87e56a24-1dbb-43ed-b3de-2c0f8224090f",
+    "url": "https://onecapedemo280267.onecape.in",
+    "subdomain": "onecapedemo280267",
+    "description": "Set up your shop online and grow your business, focus only on your customers leave everything else with us"
+  },
+  {
+    "title": "OneCape Demo 3",
+    "scope": "https://onecapedemo3cb4b0.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Demo%2Flogo192.png?alt=media&token=87e56a24-1dbb-43ed-b3de-2c0f8224090f",
+    "url": "https://onecapedemo3cb4b0.onecape.in",
+    "subdomain": "onecapedemo3cb4b0",
+    "description": "Set up your shop online and grow your business, focus only on your customers leave everything else with us"
+  },
+  {
+    "title": "OneCape Demo 5",
+    "scope": "https://onecapedemo54a702.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Demo%2Flogo192.png?alt=media&token=87e56a24-1dbb-43ed-b3de-2c0f8224090f",
+    "url": "https://onecapedemo54a702.onecape.in",
+    "subdomain": "onecapedemo54a702",
+    "description": "Set up your shop online and grow your business, focus only on your customers leave everything else with us"
+  },
+  {
+    "title": "OneCape Demo Dev",
+    "scope": "https://onecapedemodev.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Demo%2Flogo192.png?alt=media&token=87e56a24-1dbb-43ed-b3de-2c0f8224090f",
+    "url": "https://onecapedemodev.onecape.in",
+    "subdomain": "onecapedemodev",
+    "description": "Set up your shop online and grow your business, focus only on your customers leave everything else with us"
+  },
+  {
+    "title": "Popular Mutton Stall",
+    "scope": "https://popularmutton.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Popular%20Mutton%2F3.png?alt=media&token=19294c26-1e77-4937-b320-001a7749f2e7",
+    "url": "https://popularmutton.onecape.in",
+    "subdomain": "popularmutton",
+    "description": "Get to enjoy the exquisite products obtained from selective high quality sheep around Trichy!"
+  },
+  {
+    "title": "Sri Stores",
+    "scope": "https://sri.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/Sri%2F192.png?alt=media&token=e5e7bedc-6041-4a5a-bfcb-a969790ede8c",
+    "url": "https://sri.onecape.in",
+    "subdomain": "sri",
+    "description": "Get all the basic necessary grocery products from Sri stores during this hectic Covid times!"
+  },
+  {
+    "title": "Thillai Mess",
+    "scope": "https://stk.onecape.in",
+    "image": "https://firebasestorage.googleapis.com/v0/b/onecapeshopcustomerpwa.appspot.com/o/STK%2FMask%20Group.png?alt=media&token=4d601dbb-8f8a-497d-9ae5-dd4c3695a75b",
+    "url": "https://stk.onecape.in",
+    "subdomain": "stk",
+    "description": "Experience the rich,sprinkling taste of Trichy qith extraordinary service and traditional vibrant foodie accomodation"
+  }
+]

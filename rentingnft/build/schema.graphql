@@ -1,0 +1,13 @@
+type RentBook @entity {
+  id: ID!
+  rentAssetID: BigInt
+  tokenID: BigInt
+  owner: Bytes!
+  rentedTo: String
+  amount: BigInt!
+  createdTimestamp: BigInt
+  deadline: BigInt
+  noOfDays: BigInt
+  isClosed: Boolean
+  isRentPayed: Boolean
+}

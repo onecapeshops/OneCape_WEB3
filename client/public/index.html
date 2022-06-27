@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      user-scalable="no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Primary Meta Tags -->
+    <title>Onecape Shops - Your Shop, Your Power!</title>
+    <meta name="title" content="#orderdirect" />
+    <meta
+      name="description"
+      content="Order Ahead and Skip the Line to Place Orders Online on your Mobile Phone"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://onecape.in/" />
+    <meta property="og:title" content="#OrderDirect" />
+    <meta
+      property="og:description"
+      content="Order Ahead and Skip the Line to Place Orders Online on your Mobile Phone"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://onecape.in/" />
+    <meta property="twitter:title" content="#OrderDirect" />
+    <meta
+      property="twitter:description"
+      content="Order Ahead and Skip the Line to Place Orders Online on your Mobile Phone"
+    />
+    <meta
+      property="twitter:image"
+      content="https://res.cloudinary.com/onecape/image/upload/v1634491016/thumbnail_rydiuo.png"
+    />
+    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+    <link rel="manifest" id="my-manifest-placeholder" />
+
+    <!-- <title>OneCape Demo</title> -->
+  </head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      overscroll-behavior-y: none;
+      user-select: none;
+    }
+
+    .containervisible {
+      display: none;
+    }
+
+    #backdropContainer {
+      width: 100%;
+      z-index: 8000;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.4);
+      position: fixed;
+      animation-name: backdropAnimate;
+      animation-duration: 1s;
+    }
+
+    #contentwrapper {
+      position: fixed;
+      z-index: 9000;
+      border-radius: 40px 40px 0px 0px;
+      background-color: white;
+      bottom: 0;
+      width: 100%;
+      height: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      animation-name: slider;
+      animation-duration: 1s;
+    }
+
+    @keyframes backdropAnimate {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slider {
+      from {
+        bottom: -800px;
+        opacity: 0;
+      }
+
+      to {
+        bottom: 0px;
+        opacity: 1;
+      }
+    }
+
+    #installButton {
+      padding: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      background-color: #41a0fc;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      margin-top: 15px;
+      font-weight: bold;
+      font-family: 'Spartan', sans-serif;
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.2s linear;
+      box-shadow: 0px 5px 10px #8dd1fe;
+    }
+
+    #installButton:hover {
+      box-shadow: 0px 5px 20px #8dd1fe;
+    }
+
+    #closeButton {
+      padding: 20px;
+      background: transparent;
+      font-family: 'Spartan', sans-serif;
+      color: grey;
+      border: none;
+      margin-top: 15px;
+      font-size: 16px;
+    }
+
+    .innercontent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .web_body {
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .web_body::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="installcontainer" class="containervisible">
+      <div id="backdropContainer"></div>
+      <div id="contentwrapper">
+        <div
+          style="display: flex; flex-direction: column; align-items: center; justify-content: center;"
+        >
+          <img alt="avatar" width="100" height="100" id="shop-image" />
+          <div class="innercontent">
+            <h2 class="storename"></h2>
+            <p style="text-align: center; width: 70%; margin-top: -5px; color: gray">
+              Install Application to get instant offers from you favourite shop
+            </p>
+            <button id="installButton">
+              Install
+            </button>
+            <button id="closeButton">
+              May be later
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="root" class="web_body"></div>
+    <script>
+      const installContainer = document.querySelector('#installcontainer');
+      const installButton = document.querySelector('#installButton');
+      const closeButton = document.querySelector('#closeButton');
+      const backdropContainer = document.querySelector('#backdropContainer');
+
+      if (location.protocol === 'https:') {
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/firebase-messaging-sw.js');
+            navigator.serviceWorker.register('/sw.js');
+          });
+        }
+      }
+
+      window.addEventListener('beforeinstallprompt', e => {
+        if (e.prompt) {
+          e.preventDefault();
+          window.defferedPrompt = e;
+          installContainer.classList.toggle('containervisible', false);
+
+          installButton.addEventListener('click', async () => {
+            const promptEvent = window.defferedPrompt;
+            if (!promptEvent) {
+              return;
+            }
+
+            promptEvent.prompt();
+
+            const result = await promptEvent.userChoice;
+
+            window.deferredPrompt = null;
+            installContainer.classList.toggle('containervisible', true);
+          });
+        }
+      });
+
+      closeButton.addEventListener('click', async () => {
+        installContainer.classList.toggle('containervisible', true);
+      });
+
+      backdropContainer.addEventListener('click', async () => {
+        installContainer.classList.toggle('containervisible', true);
+      });
+
+      window.addEventListener('appinstalled', event => {
+        if (typeof localStorage != 'undefined') {
+          localStorage.setItem('pwaInstall', 'true');
+          if (localStorage.getItem('pwaGAInstall') != null) {
+            localStorage.removeItem('pwaGAInstall');
+          }
+        }
+        window.deferredPrompt = null;
+      });
+    </script>
+
+</body>
+
+</html>

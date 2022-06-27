@@ -1,0 +1,109 @@
+{
+  "palette": {
+    "common": {
+      "black": "#000",
+      "white": "#fff"
+    },
+    "background": {
+      "halfWhite": "#F2F2F5"
+    },
+    "primary": {
+      "main": "#FF4532",
+      "contrastText": "#fff"
+    },
+    "secondary": {
+      "main": "#FF6151",
+      "contrastText": "#fff"
+    },
+    "tertiary": {
+      "main": "#FF7D6F",
+      "contrastText": "#fff"
+    },
+    "error": {
+      "main": "#DB2A30",
+      "contrastText": "#fff"
+    },
+    "text": {
+      "primary": "#28293D",
+      "secondary": "#555770",
+      "disabled": "#8E90A6"
+    }
+  },
+  "shadows": ["none"],
+  "typography": {
+    "body1": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "600",
+      "letterSpacing": "1",
+      "fontSize": 14
+    },
+    "body2": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "400",
+      "letterSpacing": -1,
+      "fontSize": 14
+    },
+    "button": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "letterSpacing": -1,
+      "fontSize": 14
+    },
+    "h1": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "500",
+      "letterSpacing": -1,
+      "fontSize": 28
+    },
+    "h2": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "500",
+      "letterSpacing": -1,
+      "fontSize": 24
+    },
+    "h3": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "500",
+      "letterSpacing": -1,
+      "fontSize": 20
+    },
+    "h4": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "500",
+      "letterSpacing": -1,
+      "fontSize": 16
+    },
+    "h5": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "500",
+      "letterSpacing": -1,
+      "fontSize": 14
+    },
+    "h6": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "500",
+      "letterSpacing": -1,
+      "fontSize": 12
+    },
+    "overline": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "600",
+      "letterSpacing": -1,
+      "fontSize": 10,
+      "transform": "uppercase"
+    },
+    "subtitle1": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "300",
+      "letterSpacing": -1,
+      "fontSize": 12
+    },
+    "subtitle2": {
+      "fontFamily": "'Spartan', sans-serif",
+      "fontWeight": "300",
+      "letterSpacing": -1,
+      "fontSize": 12
+    }
+  }
+}

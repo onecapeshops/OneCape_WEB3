@@ -1,0 +1,28 @@
+specVersion: 0.0.5
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: RentingNFT
+    network: mumbai
+    source:
+      address: "0x911F8342038865BC4080ab5715f32dEF5289e90E"
+      abi: RentingNFT
+      startBlock: 26915350
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - RentBook
+      abis:
+        - name: RentingNFT
+          file: ./abis/RentingNFT.json
+      eventHandlers:
+        - event: RentNFTEvent(uint256,uint256,address,uint256,uint256,uint256,uint256)
+          handler: handleRentNFTEvent
+        - event: getNFTAsRentEvent(uint256,uint256,address,uint256,uint256)
+          handler: handlegetNFTAsRentEvent
+        - event: withdrawRentedNFTEvent(uint256,uint256,uint256)
+          handler: handlewithdrawRentedNFTEvent
+      file: ./src/renting-nft.ts

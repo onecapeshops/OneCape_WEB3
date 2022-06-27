@@ -1,0 +1,20 @@
+type Token @entity {
+  id: ID!
+  tokenURI: String!
+  updatedAtTimestamp: BigInt!
+  owner: Bytes!
+  forSale: Boolean
+}
+
+type Listing @entity {
+  id: ID!
+  owner: Bytes!
+  isSale: Boolean!
+  listingId: BigInt
+  isClosed: Boolean
+  price: BigInt!
+  buyer: Bytes
+  seller: Bytes
+  updatedTimeStamp: BigInt
+}
+

@@ -1,0 +1,7 @@
+type DAOProposalList @entity {
+  id: ID!
+  proposalID: BigInt!
+  proposer: Bytes!
+  calldataHash : Bytes
+  description: String!
+}
